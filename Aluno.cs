@@ -5,12 +5,13 @@ using System.Threading.Tasks;
 
 namespace Aula1
 {
-    public struct Aluno
+    public class Aluno
     {
         
         private int Idade { get; set; }
         public string Nome { get; private set; }
-        public int ID  { get; private set; }
+        public int ID  { get;  set; }
+        public double NotaFinal {get; set;}
     
 
 
@@ -18,6 +19,9 @@ namespace Aula1
         this.Nome = nome;   
         this.Idade = idade;
         this.ID = id;
+        this.NotaFinal = 0;
+      
+    
     }
 
 

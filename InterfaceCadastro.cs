@@ -10,5 +10,9 @@ namespace Aula1
         public  void cadastrar(Aluno aluno);
         public void consultarAluno(int id);
         public void removerAluno(int id);
+
+
+    
+
     }
 }
